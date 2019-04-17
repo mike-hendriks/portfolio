@@ -1,0 +1,75 @@
+#contact{
+    position: relative;
+    background: $color_dark url('../img/spots.png') center no-repeat;
+    background-size: cover;
+    color: $color_background;
+
+    h2{
+        margin-bottom: 55px;
+    }
+
+    .get_in_touch{
+        margin-top: 50px;
+        margin-bottom: 135px;
+        div{
+            margin: 15px 0 15px 20px;
+
+            i{
+                display: inline-block;
+                margin-right: 30px;
+                padding-top: -10px;
+            }
+            span{
+                vertical-align: super;
+                display: inline-block;
+            }
+        }
+        @media screen and (max-width: $m) {
+            margin-bottom: 50px;
+        }
+    }
+
+    #contact_form{
+        position: relative;
+    }
+
+    .contact_form{
+        position: relative;
+        background: #fff;
+        padding: 30px 30px 10px 30px;
+        margin-bottom: 30px;
+        color: $color_dark;
+
+        /* label color */
+        .input-field label {
+            color: $color_dark;
+        }
+        /* label focus color */
+        .input-field input:focus + label {
+            color: $color_dark;
+        }
+        /* label underline focus color */
+        .input-field input:focus {
+            border-bottom: 1px solid $color_dark;
+            box-shadow: 0 1px 0 0 $color_dark;
+        }
+        .input-field textarea:focus {
+            border-bottom: 1px solid $color_dark;
+            box-shadow: 0 1px 0 0 $color_dark;
+        }
+        /* valid color */
+        .input-field input.valid {
+            border-bottom: 1px solid $color_dark;
+            box-shadow: 0 1px 0 0 $color_dark;
+        }
+        /* invalid color */
+        .input-field input.invalid {
+            border-bottom: 1px solid $color_main;
+            box-shadow: 0 1px 0 0 $color_dark;
+        }
+        /* icon prefix focus color */
+        .input-field .prefix.active {
+            color: $color_dark;
+        }
+    }
+}

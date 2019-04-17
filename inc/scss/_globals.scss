@@ -1,0 +1,75 @@
+.z-depth-6 {
+	transition: .4s ease all;
+    -webkit-box-shadow: -6px -16px 24px 2px rgba(0,0,0,0.14), -6px -6px 30px 5px rgba(0,0,0,0.12), -6px -8px 10px -5px rgba(0,0,0,0.3);
+    box-shadow: -8px -8px 24px 2px rgba(0,0,0,0.14), -8px -6px 30px 5px rgba(0,0,0,0.12), -10px -8px 10px -5px rgba(0,0,0,0.3);
+}
+
+.align_center{
+	text-align: center;
+}
+
+.align_left{
+	text-align: left;
+}
+
+.align_right{
+	text-align: right;
+}
+
+.dashed-block{
+	width: 300px;
+	height: 208px;
+	background-image: url('../img/dash-red.svg');
+	background-repeat: repeat;
+	background-size: 16px;
+	position: absolute;
+	z-index: 1;
+
+	&.right{
+		right: 100px;
+		bottom: -120px;
+	}
+	&.left{
+		left: 100px;
+		position: relative;
+		z-index: 1;
+	}
+}
+
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.color_main{
+	color: $color_main;
+}
+
+.btn-main-color{
+	background-color: $color_main !important;
+}
+
+.no_margin_bottom{
+	margin-bottom: 0px !important;
+}
+
+.background{
+	.line{
+		background-color: #222222;
+		width: 1px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+
+		&:first-child{
+			left: 25%;
+		}
+		&:nth-child(2){
+			left: 50%;
+		}
+		&:last-child{
+			left: 75%;
+		}
+	}
+}
