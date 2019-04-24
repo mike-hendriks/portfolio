@@ -101,14 +101,16 @@ nav{
 
             a{
                 display: inline-block;
-                font-family: 'Google Sans';
+                font-family: 'Montserrat', sans-serif;
                 position: relative;
+                font-weight: 500;
                 color: $color_background;
                 font-size: 30px;
                 margin: 20px 0;
                 text-transform: uppercase;
-                letter-spacing: 4px;
+                letter-spacing: 3px;
                 transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+                cursor: pointer;
 
                 &::before{
                     content: '';

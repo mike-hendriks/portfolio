@@ -86,7 +86,7 @@
 				<div class="row">
 
 					<div class="col s12">
-						<h2 data-title="Portfolio" class="light">Portfolio</h2>
+						<h2 data-title="Portfolio">Portfolio</h2>
 					</div>
 					<div class="col s12 case" id="case1">
 						<div class="img_container">
