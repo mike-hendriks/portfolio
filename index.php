@@ -195,7 +195,7 @@ echo date('Y');?> <span class="bold">Mike Hendriks</span>
 		<!-- MaterializeCSS -->
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 		<!-- Custom JS -->
-		<script type="text/javascript" src="public/js/main.min.js"></script>
+		<script type="text/javascript" src="inc/js/main.js"></script>
 		<script type="text/javascript" src="inc/js/video_background.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.3.0/rellax.min.js"></script>
 
