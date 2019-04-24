@@ -26,18 +26,18 @@ var cache 			 = require( 'gulp-cache' );
 var browserSync  = require( 'browser-sync' ).create();
 
 // Project related variables
-var styleSRC     = './src/scss/style.scss';
+var styleSRC     = './inc/scss/style.scss';
 var styleURL     = './public/css/';
 var mapURL       = './';
 
-var jsSRC        = './src/js/';
+var jsSRC        = './inc/js/';
 var jsFront      = 'main.js';
 var jsFiles      = [ jsFront ];
 var jsURL        = './public/js/';
 
-var styleWatch   = './src/scss/**/*.scss';
-var jsWatch      = './src/js/**/*.js';
-var htmlWatch    = './src/**/*.html';
+var styleWatch   = './inc/scss/**/*.scss';
+var jsWatch      = './inc/js/**/*.js';
+var htmlWatch    = './inc/**/*.html';
 
 // Tasks
 function browser_sync() {
@@ -45,7 +45,7 @@ function browser_sync() {
 		// server: {
 		// 	baseDir: './public/'
     // }
-    proxy: 'project-template.test'
+    proxy: 'localhost/portfolio'
 
 	});
 }
