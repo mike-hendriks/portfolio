@@ -31,6 +31,14 @@
 		</ul>
 	</nav>
 	<header id="home">
+	<div class="background light">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		</div>
+
 		<div class="tv">
 			<div class="screen mute" id="tv"></div>
 		</div>
@@ -45,7 +53,9 @@
 		<div class='icon-scroll'></div>
 	</header>
 	<main>
-		<div class="background">
+		<div class="background dark">
+			<div class="line"></div>
+			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
@@ -71,7 +81,7 @@
 							</p>
 						</div>
 						<div class="col m4 image rellax hide-on-small-only" data-rellax-speed="-.5">
-							<img src="inc/img/me2.jpg" alt="Mike Hendriks" class="img-responsive z-depth-5">
+							<img src="inc/img/profile_picture.jpg" alt="Mike Hendriks" class="img-responsive z-depth-5">
 						</div>
 					</div>
 				</div>
@@ -82,7 +92,7 @@
 
 		<div class="container-fluid" id="cases">
 
-			<div class="container">
+			
 				<div class="row">
 
 					<div class="col s12">
@@ -94,14 +104,14 @@
 							<div class="inner_container">
 								<div class="on_load"></div>
 
-								<img src="inc/img/mymovielist.jpg" class="hidden">
+								<img src="inc/img/mymovielist.jpg" class="hide_content">
 
 							</div>
 
 						</div>
 						<div class="content_container rellax" data-rellax-speed="-.6">
 							<div class="on_load"></div>
-							<div class="content hidden">
+							<div class="content hide_content">
 								<h3>MyMovieList</h3>
 								<span>A project I started in my spare time. With this web application you can keep track of the movies and tv shows you want to watch.</span>
 								<span>Simply create an account using your Google account and start tracking!</span>
@@ -111,8 +121,34 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="col s12 case right" id="case2">
+						<div class="img_container">
+
+							<div class="inner_container">
+								<div class="on_load"></div>
+
+								<img src="inc/img/mymovielist.jpg" class="hide_content">
+
+							</div>
+
+						</div>
+						<div class="content_container rellax" data-rellax-speed="-.6">
+							<div class="on_load"></div>
+							<div class="content hide_content">
+								<h3>MyMovieList</h3>
+								<span>A project I started in my spare time. With this web application you can keep track of the movies and tv shows you want to watch.</span>
+								<span>Simply create an account using your Google account and start tracking!</span>
+								<br>
+								<br>
+								<span>Go to <a href="http://mymovielist.nl" target="_blank">MyMovielist.nl</a></span>
+							</div>
+						</div>
+					</div>
+
+
 				</div>
-			</div>
+		
 		</div>
 
 		<!-- Contact -->

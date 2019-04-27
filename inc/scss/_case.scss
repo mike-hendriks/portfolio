@@ -5,15 +5,16 @@
 	.case{
 		position: relative;
 		margin-top: 75px;
-		margin-bottom: 200px;
+		margin-bottom: 150px;
+		z-index: 2;
 
-		.hidden{
-			opacity: 0;
+		.hide_content{
+			visibility: hidden;
 		}
 
 		.on_load{
 			background: $color_main;
-			width: 0;
+			width: 0%;
 			height: 100%;
 			position: absolute;
 			top: 0;
@@ -25,15 +26,16 @@
 		.img_container{
 			position: relative;
 			overflow: hidden;
-			margin-left: 5%;
+			margin-left: 4.4%;
 			background: transparent;
+			width: 69%;
 
 			@media screen and (max-width: 750px) {
 				margin-left: 0;
 			}
 
 			.inner_container{
-				width: 80%;
+				width: 100%;
 				height: auto;
 
 				@media screen and (max-width: $xl) {
@@ -53,13 +55,14 @@
 		}
 
 		.content_container{
-			border-left: 3px solid $color_main;
-			width: 350px;
+			// border-left: 3px solid $color_main;
+			width: 26%;
 			height: auto;
+			// min-height: 250px;
 			display: block;
 			position: absolute;
 			top: 50px;
-			right: 12px;
+			right: 5%;
 			overflow: hidden;
 
 
@@ -81,24 +84,30 @@
 				h3{
 					margin-top: 0;
 				}
+
+				&.hide_content{
+					visibility: hidden!important;
+				}
 			}
 		}
 	}
 
 	.case.right{
+		margin-top: 0;
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+
 		.img_container{
-			float: right;
-			margin-right: 5%;
+			margin-right: 4.4%;
+			margin-left: 0;
 		}
 		.on_load{
 			left: 0;
 		}
 		.content_container{
-			border-left: 0;
-			border-right: 3px solid $color_main;
-			left: 12px;
-			top: auto;
-			bottom: 50px;
+			left: 5%;
+			top: 50px;
 		}
 	}
 }

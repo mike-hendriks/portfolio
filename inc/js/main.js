@@ -60,10 +60,10 @@ $(function(){
         on_load = $(el).find('.on_load');
         $(on_load).animate({ width: "100%" }, 'fast');
         setTimeout(function(){
-            $(el).find('.hidden').removeClass('hidden');
+            $(el).find('.hide_content').removeClass('hide_content');
             $(el).find('img').addClass('z-depth-5');
             $(el).find('.content_container').addClass('z-depth-5');
-            $(el).find('.content_container').css('background','#fff');
+            $(el).find('.content_container').css({'background': '#fff', 'border-left': '3px solid #FF483A'});
         },500);
 
         if ($(el).hasClass('right')) {
