@@ -82,7 +82,7 @@
 						</div>
 						<div class="col m4 image rellax hide-on-small-only" data-rellax-speed="-.5">
 							<img src="inc/img/profile_picture.jpg" alt="Mike Hendriks" class="img-responsive z-depth-5">
-							<div class="dotted-block"></div>
+							<!-- <div class="dotted-block"></div> -->
 						</div>
 					</div>
 				</div>
