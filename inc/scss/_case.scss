@@ -8,6 +8,13 @@
 		margin-bottom: 150px;
 		z-index: 2;
 
+		@media screen and (max-width: $xl) {
+			margin-bottom: 200px;
+		}
+		@media screen and (max-width: $l) {
+			margin-bottom: 50px;
+		}
+
 		.hide_content{
 			visibility: hidden;
 		}
@@ -30,6 +37,10 @@
 			background: transparent;
 			width: 69%;
 
+			@media screen and (max-width: $l) {
+				width: 100%;
+				margin-left: 0;
+			}
 			@media screen and (max-width: 750px) {
 				margin-left: 0;
 			}
@@ -39,7 +50,7 @@
 				height: auto;
 
 				@media screen and (max-width: $xl) {
-					width: 90%;
+					width: 100%;
 				}
 				@media screen and (max-width: 750px) {
 					width: 100%;
@@ -65,14 +76,25 @@
 			right: 5%;
 			overflow: hidden;
 
+			@media screen and (max-width: $xl) {
+				width: 40%;
+			}
 
-			@media screen and (max-width: 750px) {
+			@media screen and (max-width: $l) {
+				width: auto;
 				position: relative;
-				width: 100%;
 				top: 0;
 				right: 0;
-				transform: translate3d(0px, 0px, 0px)!important;
+				transform: none !important;
 			}
+
+			// @media screen and (max-width: 750px) {
+			// 	position: relative;
+			// 	width: 100%;
+			// 	top: 0;
+			// 	right: 0;
+			// 	transform: translate3d(0px, 0px, 0px)!important;
+			// }
 
 			.content{
 				background-color: $color_background;
@@ -90,14 +112,6 @@
 				}
 			}
 		}
-
-		.dotted-block{
-			top: 300px;
-			top: 30px;
-			right: -40px;
-			width: 300px;
-			height: 498px;
-		}
 	}
 
 	.case.right{
@@ -106,9 +120,17 @@
 		justify-content: flex-end;
 		position: relative;
 
+		@media screen and (max-width: $l) {
+			display: block;
+		}
+
 		.img_container{
 			margin-right: 4.4%;
 			margin-left: 0;
+			
+			@media screen and (max-width: $l) {
+				width: 100%;
+			}
 		}
 		.on_load{
 			left: 0;
@@ -116,6 +138,11 @@
 		.content_container{
 			left: 5%;
 			top: 50px;
+
+			@media screen and (max-width: $l) {
+				left: 0;
+				top: 0;
+			}
 		}
 	}
 }
