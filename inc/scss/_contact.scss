@@ -1,8 +1,10 @@
 #contact{
+    z-index: 2;
     position: relative;
     background: $color_dark url('../img/spots.png') center no-repeat;
     background-size: cover;
     color: $color_background;
+    margin-top: 50px;
 
     h2{
         margin-bottom: 55px;
@@ -10,34 +12,40 @@
 
     .get_in_touch{
         margin-top: 50px;
-        margin-bottom: 135px;
-        div{
-            margin: 15px 0 15px 20px;
+        
+        .content{
+            margin-top: 50px;
+            // margin-bottom: 135px;
 
-            i{
-                display: inline-block;
-                margin-right: 30px;
-                padding-top: -10px;
+            div{
+                margin: 15px 0 15px 20px;
+
+                i{
+                    display: inline-block;
+                    margin-right: 30px;
+                    padding-top: -10px;
+                }
+                span{
+                    vertical-align: super;
+                    display: inline-block;
+                }
             }
-            span{
-                vertical-align: super;
-                display: inline-block;
+            @media screen and (max-width: $m) {
+                margin-bottom: 50px;
             }
-        }
-        @media screen and (max-width: $m) {
-            margin-bottom: 50px;
         }
     }
 
     #contact_form{
         position: relative;
     }
-
+    
     .contact_form{
+        margin-top: -80px;
         position: relative;
         background: #fff;
         padding: 30px 30px 10px 30px;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
         color: $color_dark;
 
         /* label color */

@@ -31,13 +31,13 @@
 		</ul>
 	</nav>
 	<header id="home">
-	<div class="background light">
+		<!-- <div class="background light">
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
-		</div>
+		</div> -->
 
 		<div class="tv">
 			<div class="screen mute" id="tv"></div>
@@ -53,13 +53,13 @@
 		<div class='icon-scroll'></div>
 	</header>
 	<main>
-		<div class="background dark">
+		<!-- <div class="background dark">
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
 			<div class="line"></div>
-		</div>
+		</div> -->
 		<!-- <div class="dotted-block right rellax" data-rellax-speed="1"></div> -->
 
 		<div class="container-fluid" id="about_me">
@@ -160,14 +160,14 @@
 		<div class="container_fluid" id="contact">
 			<div class="container">
 				<div class="row no_margin_bottom">
-					<div class="col s12">
+					<!-- <div class="col s12">
 						<h2>Contact</h2>
-					</div>
-					<div class="col m6">
-						<h3>Let's get in touch</h3>
-						<p>Feel free to contact me if you have any questions, or would like to chat about a project.</p>
+					</div> -->
+					<div class="col m5 get_in_touch">
+						<h3>Contact</h3>
+						<p>Please feel free to contact me if you have any questions, or would like to chat about a project or collaboration.</p>
 
-						<div class="get_in_touch">
+						<div class="content">
 							<div>
 								<i class="material-icons">mail_outline</i>
 								<span><a href="mailto:info@mikehendriks.nl">info@mikehendriks.nl</a></span>
@@ -180,16 +180,23 @@
 								<i class="material-icons">location_on</i>
 								<span>Eindhoven, The Netherlands</span>
 							</div>
+
+							<!-- <h4>Email</h4>
+							<span><a href="mailto:info@mikehendriks.nl">info@mikehendriks.nl</a></span>
+							<h4>Phone</h4>
+							<span><a href="tel:+31625398674">+31 6 25398674</a></span>
+							<h4>Location</h4>
+							<span>Venlo, The Netherlands</span> -->
 						</div>
 
 
 					</div>
-					<div class="col m6">
+					<div class="col m6 offset-m1">
 						<div class="contact_form z-depth-4">
 							<form id="contact-form" name="form" method="post" action="mailer.php/send_contact_form">
 								<div class="row">
 									<div class="col s12">
-										<h3>Say something</h3>
+										<h3>LET'S GET IN TOUCH</h3>
 									</div>
 									<div class="input-field col s12">
 										<input id="name" type="text" name="name" class="validate" autocomplete="given-name" required>
