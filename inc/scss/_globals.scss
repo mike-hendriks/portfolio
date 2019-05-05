@@ -19,7 +19,7 @@
 .dashed-block{
 	width: 300px;
 	height: 208px;
-	background-image: url('../img/dash-red.svg');
+	background-image: url('../../inc/img/dash-red.svg');
 	background-repeat: repeat;
 	background-size: 16px;
 	position: absolute;
@@ -34,6 +34,14 @@
 		position: relative;
 		z-index: 1;
 	}
+}
+
+.dotted-block{
+	background-image: url('../../inc/img/dot.svg');
+	background-repeat: repeat;
+	background-size: 25px;
+	position: absolute;
+	z-index: -1;
 }
 
 .img-responsive{

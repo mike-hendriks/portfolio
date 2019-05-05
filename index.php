@@ -60,7 +60,7 @@
 			<div class="line"></div>
 			<div class="line"></div>
 		</div>
-		<!-- <div class="dashed-block right rellax" data-rellax-speed="1"></div> -->
+		<!-- <div class="dotted-block right rellax" data-rellax-speed="1"></div> -->
 
 		<div class="container-fluid" id="about_me">
 				<div class="row">
@@ -82,6 +82,7 @@
 						</div>
 						<div class="col m4 image rellax hide-on-small-only" data-rellax-speed="-.5">
 							<img src="inc/img/profile_picture.jpg" alt="Mike Hendriks" class="img-responsive z-depth-5">
+							<div class="dotted-block"></div>
 						</div>
 					</div>
 				</div>
@@ -114,7 +115,9 @@
 							<div class="content hide_content">
 								<h3>MyMovieList</h3>
 								<span>A project I started in my spare time. With this web application you can keep track of the movies and tv shows you want to watch.</span>
-								<span>Simply create an account using your Google account and start tracking!</span>
+								<br>
+								<br>
+								<span>Simply create an account using your Google account and start tracking what movies and tv-shows you want to see!</span>
 								<br>
 								<br>
 								<span>Go to <a href="http://mymovielist.nl" target="_blank">MyMovielist.nl</a></span>
@@ -128,7 +131,7 @@
 							<div class="inner_container">
 								<div class="on_load"></div>
 
-								<img src="inc/img/mymovielist.jpg" class="hide_content">
+								<img src="inc/img/lameco_dashboard.jpg" class="hide_content">
 
 							</div>
 
@@ -136,9 +139,11 @@
 						<div class="content_container rellax" data-rellax-speed="-.6">
 							<div class="on_load"></div>
 							<div class="content hide_content">
-								<h3>MyMovieList</h3>
-								<span>A project I started in my spare time. With this web application you can keep track of the movies and tv shows you want to watch.</span>
-								<span>Simply create an account using your Google account and start tracking!</span>
+								<h3>Lam&#233;co Dashboard</h3>
+								<span>With a project group called "De Sigaar", we had the pleasure of working on a project for Lam&#233;co, a web-development company located in Eindhoven.</span>
+								<br>
+								<br>
+								<span> They requested us to create a online platform to manage dashboards for their customers.</span>
 								<br>
 								<br>
 								<span>Go to <a href="http://mymovielist.nl" target="_blank">MyMovielist.nl</a></span>
