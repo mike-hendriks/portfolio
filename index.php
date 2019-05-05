@@ -72,7 +72,7 @@
 					<div class="row">
 
 						<div class="col m4 offset-m2 text rellax" data-rellax-speed=".3">
-							<h3 class="line_right">Hello</h3>
+							<h3 class="line_right hide-on-small-only">Hello</h3>
 							<p class="align_right">
 								I am freelance web developer based in Eindhoven, the Netherlands. I love creating digital experiences enjoyable for everyone.
 								With 4 years of experience and a degree in Media Development, I've had the pleasure of working with a wide variety of businesses, startups and individuals to create beautiful and easy to use websites and applications.
@@ -80,7 +80,7 @@
 								Currently I am studying a bachelor course in ICT & Media at the Fontys University of Applied Sciences.
 							</p>
 						</div>
-						<div class="col m4 image rellax hide-on-small-only" data-rellax-speed="-.5">
+						<div class="col m4 image rellax" data-rellax-speed="-.5">
 							<img src="inc/img/profile_picture.jpg" alt="Mike Hendriks" class="img-responsive z-depth-5">
 							<!-- <div class="dotted-block"></div> -->
 						</div>

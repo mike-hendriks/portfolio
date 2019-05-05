@@ -1,13 +1,13 @@
 #about_me{
     position: relative;
     padding-bottom: 180px;
-    background-image: url('../img/test.jpg');
-    background-repeat: no-repeat;
-    background-position: center left;
-    background-size: cover;
+    // background-image: url('../img/test.jpg');
+    // background-repeat: no-repeat;
+    // background-position: center left;
+    // background-size: cover;
 
     @media screen and (max-width: $m) {
-        background: none;
+        // background: none;
         padding-bottom: 100px;
     }
 
@@ -19,6 +19,10 @@
         margin-top: 70px;
         // margin-bottom: 60px;
         position: relative;
+
+        img{
+            background-color: $color_background;
+        }
         
         &::after{
             content: '';
@@ -35,23 +39,35 @@
             
             z-index: -1;
         }
+
+        @media screen and (max-width: $m) {
+            margin-top: 0px;
+
+            img{
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            &::after{
+                top: 25px;
+                left: 40px;
+                width: 90%;
+            }
+        }
     }
 
     .text{
         position: relative;
         z-index: 20;
         margin-top: 150px;
+
+        
         @media screen and (max-width: $m) {
-            margin-top: 50px;
+            margin-top: 00px;
+
+            p{
+                text-align: left;
+            }
         }
     }
-
-    .dotted-block{
-        // top: -40px;
-        bottom: -50px;
-        right: -40px;
-        width: 300px;
-        height: 498px;
-    }
-
 }
