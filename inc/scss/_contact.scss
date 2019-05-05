@@ -34,6 +34,10 @@
                 margin-bottom: 50px;
             }
         }
+
+        @media screen and (max-width: $m) {
+            margin-top: 0px;
+        }
     }
 
     #contact_form{
@@ -42,11 +46,17 @@
     
     .contact_form{
         margin-top: -80px;
+        margin-bottom: 80px;
         position: relative;
         background: #fff;
         padding: 30px 30px 10px 30px;
-        margin-bottom: 80px;
         color: $color_dark;
+        
+        @media screen and (max-width: $m) {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        
 
         /* label color */
         .input-field label {

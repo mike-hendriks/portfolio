@@ -6,6 +6,11 @@ header{
     overflow: hidden;
     height: 100%;
     width: 100%;
+    background-color: $color_background;
+    
+    @media screen and (max-width: $m) {
+        height: 90%;
+    }
 }
 
 main{
