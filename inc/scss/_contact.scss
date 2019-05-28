@@ -16,7 +16,9 @@
         .content{
             margin-top: 50px;
             // margin-bottom: 135px;
-
+            .spacer{
+                margin-top: 50px;
+            }
             div{
                 margin: 15px 0 15px 20px;
 
@@ -28,6 +30,14 @@
                 span{
                     vertical-align: super;
                     display: inline-block;
+                }
+
+                &.socials{
+                    svg{
+                        width: 20px;
+                        height: 20px;
+                        margin: 0 15px 0 0;
+                    }
                 }
             }
             @media screen and (max-width: $m) {
